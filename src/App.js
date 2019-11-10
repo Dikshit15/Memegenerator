@@ -2,10 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import MemeGenerator from './MemeGenerator'
 
 function App() {
   return (
-    <h1>Hello, World!</h1>
+    <div>
+      <Header />
+      <MemeGenerator />
+    </div>
   );
 }
 
